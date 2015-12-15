@@ -1,7 +1,7 @@
 {
   "name": "json-chop",
   "description": "Minimal object-to-json formatting and chopping tool.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {},
   "scripts": {
     "lint": "standard",
