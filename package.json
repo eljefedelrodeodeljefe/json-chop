@@ -1,9 +1,15 @@
 {
   "name": "json-chop",
   "description": "Minimal object-to-json formatting and chopping tool.",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "keywords": [
-    "json", "filter", "chop", "null", "filter json", "remove", "remove elements"
+    "json",
+    "filter",
+    "chop",
+    "null",
+    "filter json",
+    "remove",
+    "remove elements"
   ],
   "dependencies": {},
   "scripts": {
