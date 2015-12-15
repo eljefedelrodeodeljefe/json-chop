@@ -1,7 +1,6 @@
-'use strict'
 
 exports.chop = function chop (obj, options, cb) {
-  let res = JSON.stringify(obj, function chopFilter (key, value) {
+  var res = JSON.stringify(obj, function chopFilter (key, value) {
     if (options.keyBlacklist.indexOf(key) > -1) {
       return undefined
     }
