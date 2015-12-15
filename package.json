@@ -1,7 +1,7 @@
 {
   "name": "json-chop",
   "description": "Minimal object-to-json formatting and chopping tool.",
-  "version": "0.1.0-beta",
+  "version": "1.0.0",
   "dependencies": {},
   "scripts": {
     "lint": "standard",
@@ -13,7 +13,7 @@
     "registry": "http://registry.npmjs.org"
   },
   "author": "Robert Jefe Lindstaedt <robert.lindstaedt@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "eslint": "^1.4.1",
     "eslint-config-clock": "^1.0.0",
