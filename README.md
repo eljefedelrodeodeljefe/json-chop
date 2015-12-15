@@ -1,7 +1,5 @@
-# json-chop
+# json-chop [![npm](https://img.shields.io/npm/v/npm.svg)]() [![build status](https://secure.travis-ci.org/eljefedelrodeodeljefe/json-chop.svg)](http://travis-ci.org/eljefedelrodeodeljefe/json-chop) [![Coverage Status](https://coveralls.io/repos/eljefedelrodeodeljefe/json-chop/badge.svg?branch=master&service=github)](https://coveralls.io/github/eljefedelrodeodeljefe/json-chop?branch=master)
 Minimal object-to-json formatting and chopping tool.
-
-[![npm](https://img.shields.io/npm/v/npm.svg)]() [![build status](https://secure.travis-ci.org/eljefedelrodeodeljefe/json-chop.svg)](http://travis-ci.org/eljefedelrodeodeljefe/json-chop)
 
 ## Installation
 
