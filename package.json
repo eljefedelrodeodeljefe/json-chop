@@ -2,12 +2,15 @@
   "name": "json-chop",
   "description": "Minimal object-to-json formatting and chopping tool.",
   "version": "1.0.2",
+  "keywords": [
+    "json", "filter", "chop", "null", "filter json", "remove", "remove elements"
+  ],
   "dependencies": {},
   "scripts": {
     "lint": "standard index.js",
     "pretest": "npm run lint",
     "test": "istanbul cover ./node_modules/.bin/tape 'test/index.spec.js'",
-    "posttest": "(istanbul check-coverage --statements 90 --branches 90 --functions 100 --lines 90 && rm -rf coverage) || echo Look at 'coverage/lcov-report/index.html' to find out more"
+    "posttest": "(istanbul check-coverage --statements 90 --branches 90 --functions 100 --lines 90) || echo Look at 'coverage/lcov-report/index.html' to find out more"
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
@@ -15,6 +18,7 @@
   "author": "Robert Jefe Lindstaedt <robert.lindstaedt@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "coveralls": "^2.11.6",
     "istanbul": "^0.3.19",
     "tape": "^4.2.2"
   },
