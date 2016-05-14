@@ -36,7 +36,7 @@ let options = {
   valueBlacklist: ['', 100, null]
 }
 // async version with a callback
-chop.chop(obj, options, function (res) {
+chop.chop(obj, options, (res) => {
   console.log(res)
   // {"somekey":{"nestedKey":"hello"}}
 })
