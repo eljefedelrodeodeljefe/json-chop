@@ -1,7 +1,7 @@
 'use strict'
 var test = require('tape')
 
-test('Regression [1] options not available', (t) => {
+test('Regression [1] options not available', function (t) {
   t.plan(2)
   var chop = require('../')
   var obj = {
