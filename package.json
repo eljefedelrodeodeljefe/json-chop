@@ -26,6 +26,7 @@
   "devDependencies": {
     "coveralls": "^2.11.6",
     "istanbul": "^0.3.19",
+    "standard": "^7.0.1",
     "tape": "^4.2.2"
   },
   "repository": {
