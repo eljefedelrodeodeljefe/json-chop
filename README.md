@@ -18,8 +18,8 @@ No dependencies.
 
 ```js
 'use strict'
-var chop = require('./')
-
+const chop = require('json-chop')
+// an arbitrary object
 let obj = {
   somekey: {
     nestedKey: 'hello',
@@ -29,24 +29,25 @@ let obj = {
     oneHunrdred: 100
   }
 }
-
+// define key and or value you want to finlter. `undefined` and empty
+// arrays will be filtered automatically
 let options = {
   keyBlacklist: ['__v', '_id'],
-  valueBlacklist: ['', 100, null] // empty arrays and undefied are chopped of implicitly
+  valueBlacklist: ['', 100, null]
 }
-
+// async version with a callback
 chop.chop(obj, options, function (res) {
   console.log(res)
   // {"somekey":{"nestedKey":"hello"}}
 })
-
+// sync version returns the value from the function
 let res = chop.chop(obj, options)
 console.log(res)
 // {"somekey":{"nestedKey":"hello"}}
 ```
 
 ## Roadmap
-- Test suite
+- ~~Test suite~~
 - Type checking for dev input
 - optionally return an object
 - safe mode (try ... catch)
