@@ -15,7 +15,7 @@
   "scripts": {
     "lint": "standard index.js",
     "pretest": "npm run lint",
-    "test": "istanbul cover ./node_modules/.bin/tape 'test/index.spec.js'",
+    "test": "istanbul cover ./node_modules/.bin/tape 'test/*.js'",
     "posttest": "(istanbul check-coverage --statements 90 --branches 90 --functions 100 --lines 90) || echo Look at 'coverage/lcov-report/index.html' to find out more"
   },
   "publishConfig": {
